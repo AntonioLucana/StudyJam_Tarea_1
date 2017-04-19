@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:layout_alignEnd="@+id/linearLayout2"
+        android:layout_alignRight="@+id/linearLayout2"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="260dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <Button
+            android:id="@+id/button"
+
+            android:layout_width="81dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="27dp"
+            android:background="@drawable/btnimg"
+            android:text="@string/borrar"
+            android:textColor="@color/colorAccent"
+            android:textSize="4dp" />
+    <LinearLayout
+        android:layout_width="115dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_alignEnd="@+id/linearLayout2"
+        android:layout_alignRight="@+id/linearLayout2"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="65dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/btnimg"
+            android:padding="3dp"
+            android:text="@string/crear"
+            android:textColor="@color/colorAccent"
+            android:textSize="4dp" />
+
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="51dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="2.74"
+            android:background="@drawable/btnimg"
+            android:padding="3dp"
+            android:text="Volver"
+            android:textColor="@color/colorAccent"
+            android:textSize="4dp" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@drawable/imagen1"
+
+        android:layout_below="@+id/linearLayout3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:layout_width="560dp"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="13dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:id="@+id/tvU"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Armagedda"
+            android:textSize="@dimen/titulo"
+            android:textColor="#BAA145"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="18dp"
+            />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="80dp"
+            android:layout_height="16dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/linearLayout2"
+            android:layout_toStartOf="@+id/linearLayout2"
+            android:background="@drawable/btnimg"
+            android:padding="4dp"
+            android:text="@string/entrar"
+            android:textColor="@color/colorAccent"
+            android:textSize="7dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout3">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="63dp"
+        android:layout_height="10dp"
+        android:background="@drawable/btnimg"
+        android:layout_marginLeft="10dp"
+        android:textSize="5dp"
+        android:padding="1dp"
+        android:text="@string/addons"
+        android:textColor="@color/colorAccent"
+        android:layout_alignBottom="@+id/linearLayout2"
+        android:layout_alignLeft="@+id/linearLayout2"
+        android:layout_alignStart="@+id/linearLayout2" />
+</RelativeLayout>

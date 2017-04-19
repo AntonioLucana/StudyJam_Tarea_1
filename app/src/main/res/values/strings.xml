@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Wow</string>
+    <string name="Ingresar"> Nombre de la cuenta Battle.net</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="clave"> </string>
+    <string name="email">   Escribe tu correo electrónico</string>
+    <string name="login">Conectarse</string>
+    <string name="recordar">Recordar nombre de la cuenta</string>
+    <string name="sistema">Sistema</string>
+    <string name="video">Videos</string>
+    <string name="creditos">Créditos</string>
+    <string name="nombre">Nombre</string>
+    <string name="volver">Volver</string>
+    <string name="salir">Salir</string>
+    <string name="entrar">Entrar al mundo</string>
+    <string name="borrar">Eliminar personaje</string>
+    <string name="addons">add</string>
+    <string name="crear">Crear personaje</string>
+  <!--   <string name="desc">By signing up you confirm that you have read &amp; agree to the our</string>
+      <string name="privacy"><u>Privacy Policy</u>></string>
+      <string name="and"> and </string>
+      <string name="conditions"><u>Term Conditions</u>></string>
+      -->
+</resources>

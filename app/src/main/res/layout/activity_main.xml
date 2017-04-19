@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo1"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:id="@+id/activity_main"
+    >
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="282dp"
+        android:layout_marginStart="282dp"
+        android:layout_alignTop="@+id/linearLayout2"
+        android:layout_alignLeft="@+id/linearLayout2"
+        android:layout_alignStart="@+id/linearLayout2"
+        android:textSize="@dimen/subtitulo"
+        android:layout_marginTop="9dp">
+
+
+        <Button
+            android:id="@+id/button1"
+            android:text="SISTEMA"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btnimg"
+            android:scaleType="centerInside"
+            android:padding="3dp"
+            android:textSize="@dimen/subtitulo"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btnimg"
+            android:scaleType="centerInside"
+            android:padding="3dp"
+            android:text="@string/video"
+            android:textSize="@dimen/subtitulo"
+            android:textColor="@color/colorAccent"
+
+            />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btnimg"
+            android:padding="3dp"
+            android:text="@string/creditos"
+            android:textSize="@dimen/subtitulo"
+            android:textColor="@color/colorAccent"
+
+            />
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/btnimg"
+            android:padding="3dp"
+            android:text="@string/salir"
+            android:textSize="@dimen/subtitulo"
+            android:textColor="@color/colorAccent"
+            />
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@drawable/imagen1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageView" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout2"
+        android:layout_marginTop="98dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Ingresar"
+            android:textSize="@dimen/titulo"
+            android:textColor="#BAA145"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/etUser"
+            android:layout_width="122dp"
+            android:layout_height="20dp"
+            android:hint="@string/email"
+            android:textSize="@dimen/subtitulo"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/colorAccent"
+            android:textColor="@color/colorAccent"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/cuadro"
+            android:backgroundTint="@color/colorPrimary"
+            android:alpha="0.7"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Contraseña"
+            android:textSize="@dimen/titulo"
+            android:textColor="#BAA145"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_margin="5dp"/>
+
+        <EditText
+            android:id="@+id/etPass"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:layout_marginLeft="87dp"
+            android:layout_marginRight="85dp"
+            android:alpha="0.7"
+            android:background="@drawable/cuadro"
+            android:backgroundTint="@color/colorPrimary"
+            android:hint="@string/clave"
+            android:inputType="textPassword"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:textSize="@dimen/subtitulo" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="138dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btnimg"
+            android:padding="3dp"
+            android:textSize="@dimen/subtitulo"
+            android:text="@string/login"
+            android:textColor="@color/colorAccent" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="70dp"
+
+            />
+
+        <TextView
+
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/recordar"
+            android:textColor="#BAA145"
+            android:textSize="@dimen/titulo"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout3">
+
+    </LinearLayout>
+</RelativeLayout>
