@@ -31,4 +31,4 @@ Dentro de Android Studio:
     </ center >
 </ div >
 <br><br>
-## Numero de estudiante en lista "50"
+## Numero de estudiante en lista "39"
