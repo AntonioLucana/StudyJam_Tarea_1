@@ -5,7 +5,7 @@ Dentro de este repositorio se encuentra la tarea 1 de Study Jam en el cual
 hacemos la copia del interfaz grafica de una aplicacion movil.
 
 ## Requerimientos
-
+Contagem de
   * Android Studio 2.3
   * Gradle 2.3
   * minSdkVersion 15
