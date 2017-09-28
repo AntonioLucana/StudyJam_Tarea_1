@@ -28,7 +28,7 @@ Dentro de Android Studio:
 <div align="center">
     <center>
         <img src="/img/captura.png" width="300">
-    </center>
-</div>
+    </ center >
+</ div >
 <br><br>
 ## Numero de estudiante en lista "50"
